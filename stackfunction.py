@@ -1,6 +1,6 @@
 import cv2
 import numpy as np
-
+########
 
 def stackImages(scale, imgArray):
     rows = len(imgArray)
@@ -34,7 +34,7 @@ def stackImages(scale, imgArray):
         ver = hor
     return ver
 
-
+########
 img = cv2.imread('Resources/lena.png')
 imgGray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 

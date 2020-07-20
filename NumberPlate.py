@@ -29,7 +29,7 @@ while True:
             cv2.putText(img, "Number Plate", (x, y - 5),
                         cv2.FONT_HERSHEY_COMPLEX_SMALL, 1, color, 2)   #put text under
             imgRoi = img[y:y + h, x:x + w]
-            cv2.imshow("ROI", imgRoi)
+            cv2.imshow("ROI", imgRoi) #image of our region of our intrest
 
     cv2.imshow("Result", img)
 
